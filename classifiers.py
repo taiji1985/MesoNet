@@ -4,7 +4,7 @@ from keras.models import Model as KerasModel
 from keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D, BatchNormalization, Dropout, Reshape, Concatenate, LeakyReLU
 from keras.optimizers import Adam
 
-IMGWIDTH = 256
+IMGWIDTH = 128 # Yang change here 256
 
 class Classifier:
     def __init__():
